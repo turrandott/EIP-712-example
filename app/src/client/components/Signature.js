@@ -26,7 +26,7 @@ export default function Signature ({ address }) {
 
         const previousClaim = JSON.parse(localStorage.getItem("claim"))
 
-        console.log("previousClaim34", previousClaim)
+        console.log("previousClaim", previousClaim)
 
         let nonce,
             cumulativeDebitAlice = 0,

@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 import Web3 from 'web3'
 import { verifyUser } from '../api'
 
-export default function Login ({web3, setWeb3, address, setAddress}) {
+export default function Login ({ address, setAddress }) {
     const [web3, setWeb3] = useState(null)
     const [verified, setVerified] = useState(false)
 
